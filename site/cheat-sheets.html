@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Command Cheat Sheets · Smart Speakers, Explained Like a Friend Would</title>
+<meta name="description" content="Command Cheat Sheets — Smart Speakers, Explained Like a Friend Would">
+<style>
+:root {
+  --bg:#fdf8f2; --ink:#2b2620; --soft:#6b6259; --accent:#b4502f;
+  --card:#fff; --line:#e8ded2; --code-bg:#f3ece2;
+}
+* { box-sizing:border-box; }
+body { margin:0; font-family:Georgia,'Times New Roman',serif; background:var(--bg); color:var(--ink); line-height:1.7; }
+a { color:var(--accent); }
+.layout { display:flex; min-height:100vh; }
+nav.sidebar { width:250px; flex-shrink:0; background:var(--card); border-right:1px solid var(--line); padding:1.5rem 1.2rem; }
+nav.sidebar .brand { font-weight:bold; font-size:1.05rem; margin-bottom:1.2rem; display:block; color:var(--ink); text-decoration:none; }
+nav.sidebar .brand span { color:var(--accent); }
+nav.sidebar a.item { display:block; padding:.28rem .4rem; color:var(--soft); text-decoration:none; font-size:.93rem; border-radius:6px; }
+nav.sidebar a.item:hover { background:var(--code-bg); color:var(--ink); }
+nav.sidebar a.item.current { background:var(--code-bg); color:var(--accent); font-weight:bold; }
+main { flex:1; max-width:760px; padding:2.5rem 2rem 3rem; }
+@media (max-width:820px) { .layout { flex-direction:column; } nav.sidebar { width:100%; border-right:none; border-bottom:1px solid var(--line); } main { padding:1.5rem 1.2rem 2.5rem; } }
+h1 { font-size:1.9rem; line-height:1.25; margin-top:0; }
+h2 { font-size:1.35rem; margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:.3rem; }
+h3 { font-size:1.1rem; margin-top:1.6rem; }
+p, li { font-size:1.02rem; }
+table { border-collapse:collapse; width:100%; margin:1.2rem 0; font-size:.95rem; }
+th, td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+th { background:var(--code-bg); }
+tr:nth-child(even) td { background:#fbf5ec; }
+code { background:var(--code-bg); padding:.1rem .35rem; border-radius:4px; font-size:.9em; font-family:ui-monospace,Menlo,Consolas,monospace; }
+pre code { display:block; padding:.8rem 1rem; overflow-x:auto; }
+blockquote { margin:1.2rem 0; padding:.6rem 1rem; background:var(--code-bg); border-left:4px solid var(--accent); border-radius:0 6px 6px 0; }
+blockquote p { margin:.2rem 0; }
+.todo { display:flex; gap:.55rem; align-items:flex-start; margin:.3rem 0; }
+.todo input { margin-top:.45rem; }
+.pager { display:flex; justify-content:space-between; gap:1rem; margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); }
+.pager a { text-decoration:none; }
+.pager .next { margin-left:auto; text-align:right; }
+footer { color:var(--soft); font-size:.85rem; margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); }
+.pill { display:inline-block; background:var(--code-bg); color:var(--soft); font-size:.8rem; padding:.15rem .6rem; border-radius:999px; margin-bottom:1rem; }
+</style>
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<a class="brand" href="00-welcome.html">Smart Speakers<br><span>like a friend would say it</span></a>
+<a class="item" href="00-welcome.html">Welcome: Smart Speakers, Explained Like a Friend Would</a>
+<a class="item" href="01-setup.html">Setup in One Weekend</a>
+<a class="item" href="02-privacy.html">Privacy Settings Worth Touching</a>
+<a class="item" href="03-daily-commands.html">Daily Commands That Actually Earn Their Keep</a>
+<a class="item" href="04-routines.html">Routines: Reminders and Timers on Autopilot</a>
+<a class="item" href="05-shopping.html">Voice Shopping Without Getting Burned</a>
+<a class="item" href="06-kids-guests.html">Kids and Guests: Settings That Keep the Peace</a>
+<a class="item" href="07-troubleshooting.html">My Speaker Stopped Listening: The Fix-It Ladder</a>
+<a class="item" href="08-phone-vs-speaker.html">When Your Phone Just Does It Better</a>
+<a class="item current" href="cheat-sheets.html">Command Cheat Sheets</a>
+<a class="item" href="setup-checklists.html">Setup Checklists</a>
+<a class="item" href="glossary.html">Glossary</a>
+</nav>
+<main>
+<span class="pill">Handbook page 10 of 12</span>
+<h1>Command Cheat Sheets</h1>
+<p>
+Print these pages or save them to your phone. Four cheat sheets: one per brand, plus a universal translation table.
+</p>
+<h2>Alexa (Echo)</h2>
+<table>
+<tr><th>To do this</th><th>Say this</th></tr>
+<tr><td>Send reminder</td><td>"Alexa, remind me to ___ at ___."</td></tr>
+<tr><td>Repeating reminder</td><td>"Alexa, remind me to ___ every day at ___."</td></tr>
+<tr><td>Timer</td><td>"Alexa, set a 10 minute timer."</td></tr>
+<tr><td>Named timer</td><td>"Alexa, set a pasta timer for 10 minutes."</td></tr>
+<tr><td>Check timers</td><td>"Alexa, how much time is left?"</td></tr>
+<tr><td>Cancel timer</td><td>"Alexa, cancel the pasta timer."</td></tr>
+<tr><td>Alarm</td><td>"Alexa, set an alarm for 6:30."</td></tr>
+<tr><td>Wake alarm snooze</td><td>"Snooze."</td></tr>
+<tr><td>Music</td><td>"Alexa, play some jazz."</td></tr>
+<tr><td>Volume</td><td>"Alexa, volume 4." (1–10)</td></tr>
+<tr><td>Weather</td><td>"Alexa, what's the weather?"</td></tr>
+<tr><td>Weather elsewhere</td><td>"Alexa, what's the weather in [city]?"</td></tr>
+<tr><td>Math / conversion</td><td>"Alexa, what's 15% of 60?" / "Convert 3 cups to tablespoons."</td></tr>
+<tr><td>Recipe help</td><td>"Alexa, how many ounces in a cup?"</td></tr>
+<tr><td>Call contact</td><td>"Alexa, call Mom."</td></tr>
+<tr><td>Find my phone</td><td>"Alexa, find my phone."</td></tr>
+<tr><td>Stop talking</td><td>"Alexa, stop."</td></tr>
+<tr><td>Mute mic</td><td>press the button with a mic icon / circle-with-line</td></tr>
+<tr><td>Morning routine setup</td><td>app → More → Routines → + → "Good morning."</td></tr>
+<tr><td>Shopping on / off</td><td>app → Settings → Voice Purchasing</td></tr>
+<tr><td>Delete voice history</td><td>app → Alexa Privacy → Review Voice History → Delete</td></tr>
+<tr><td>Do Not Disturb</td><td>"Alexa, do not disturb until 7am."</td></tr>
+</table>
+<h2>Google (Nest speakers)</h2>
+<table>
+<tr><th>To do this</th><th>Say this</th></tr>
+<tr><td>Send reminder</td><td>"Hey Google, remind me to ___ at ___."</td></tr>
+<tr><td>Repeating reminder</td><td>"Hey Google, remind me to ___ every Sunday at 4."</td></tr>
+<tr><td>Timer</td><td>"Hey Google, set a 10 minute timer."</td></tr>
+<tr><td>Named timer</td><td>"Hey Google, set a pasta timer for 10 minutes."</td></tr>
+<tr><td>Check timers</td><td>"Hey Google, how much time is left?"</td></tr>
+<tr><td>Cancel timer</td><td>"Hey Google, cancel the pasta timer."</td></tr>
+<tr><td>Alarm</td><td>"Hey Google, set an alarm for 6:30."</td></tr>
+<tr><td>Wake alarm snooze</td><td>"Snooze."</td></tr>
+<tr><td>Music</td><td>"Hey Google, play lo-fi beats."</td></tr>
+<tr><td>Volume</td><td>"Hey Google, volume 4." (1–10)</td></tr>
+<tr><td>Weather</td><td>"Hey Google, what's the weather?"</td></tr>
+<tr><td>Math</td><td>"Hey Google, what's 15% of 60?"</td></tr>
+<tr><td>Recipe help</td><td>"Hey Google, how many ounces in a cup?"</td></tr>
+<tr><td>Call contact</td><td>"Hey Google, call Mom."</td></tr>
+<tr><td>Find my phone</td><td>"Hey Google, find my phone."</td></tr>
+<tr><td>Stop talking</td><td>"Hey Google, stop."</td></tr>
+<tr><td>Mute mic</td><td>press the mic mute switch on the top/underside</td></tr>
+<tr><td>Morning routine setup</td><td>app → Automations → + → "Good morning."</td></tr>
+<tr><td>Shopping on / off</td><td>Google account → Payments → "On voice purchases" Off/PIN</td></tr>
+<tr><td>Delete voice history</td><td>myactivity.google.com → filter "Assistant" → Delete</td></tr>
+<tr><td>Do Not Disturb</td><td>"Hey Google, do not disturb."</td></tr>
+</table>
+<h2>Siri (HomePod)</h2>
+<table>
+<tr><th>To do this</th><th>Say this</th></tr>
+<tr><td>Send reminder</td><td>"Hey Siri, remind me to ___ at 3pm."</td></tr>
+<tr><td>Repeating reminder</td><td>"Hey Siri, remind me to take meds every day at 8am."</td></tr>
+<tr><td>Timer</td><td>"Hey Siri, set a 10 minute timer."</td></tr>
+<tr><td>Check timers</td><td>"Hey Siri, how much time is left?"</td></tr>
+<tr><td>Alarm</td><td>"Hey Siri, set an alarm for 6:30."</td></tr>
+<tr><td>Music</td><td>"Hey Siri, play my morning playlist."</td></tr>
+<tr><td>Volume</td><td>"Hey Siri, volume to 40%." (0–100%)</td></tr>
+<tr><td>Weather</td><td>"Hey Siri, what's the weather today?"</td></tr>
+<tr><td>Math</td><td>"Hey Siri, what's 15% of 60?"</td></tr>
+<tr><td>Call contact</td><td>"Hey Siri, call Mom."</td></tr>
+<tr><td>Locate (phone/pods)</td><td>"Hey Siri, where's my phone?"</td></tr>
+<tr><td>Stop talking</td><td>"Hey Siri, stop."</td></tr>
+<tr><td>Mute mic</td><td>press the top of the speaker</td></tr>
+<tr><td>Run a Shortcut routine</td><td>"Hey Siri, [shortcut name]."</td></tr>
+<tr><td>Personal requests setup (calls, texts, reminders)</td><td>iPhone Home app → speaker → Personal Requests</td></tr>
+</table>
+<h2>Translation table (same idea, different words)</h2>
+<table>
+<tr><th>You want</th><th>Alexa</th><th>Google</th><th>Siri</th></tr>
+<tr><td>Wake word</td><td>Alexa / Echo / Computer</td><td>Hey Google / OK Google</td><td>Hey Siri</td></tr>
+<tr><td>Volume scale</td><td>0–10</td><td>0–10</td><td>0–100%</td></tr>
+<tr><td>Check a timer</td><td>"how much time is left"</td><td>"how much time is left"</td><td>"how much time is left"</td></tr>
+<tr><td>Repeat a reminder</td><td>"every day/firm date"</td><td>"every day/weekday"</td><td>"daily / every [day]"</td></tr>
+<tr><td>App for settings</td><td>Amazon Alexa</td><td>Google Home</td><td>Home (iPhone)</td></tr>
+<tr><td>Delete recordings by default</td><td>Review Voice History</td><td>myactivity.google.com</td><td>Delete Siri &amp; Dictation History</td></tr>
+</table>
+<div class="pager">
+<a href="08-phone-vs-speaker.html">&larr; When Your Phone Just Does It Better</a>
+<a class="next" href="setup-checklists.html">Setup Checklists &rarr;</a>
+</div>
+<footer>Asdale Dynamics, LLC · part of the <a href='https://dylanasdale.github.io'>Massive AI Manual</a> family · educational only, never medical or legal advice</footer>
+</main>
+</div>
+</body>
+</html>

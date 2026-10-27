@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Settings Worth Touching · Smart Speakers, Explained Like a Friend Would</title>
+<meta name="description" content="Privacy Settings Worth Touching — Smart Speakers, Explained Like a Friend Would">
+<style>
+:root {
+  --bg:#fdf8f2; --ink:#2b2620; --soft:#6b6259; --accent:#b4502f;
+  --card:#fff; --line:#e8ded2; --code-bg:#f3ece2;
+}
+* { box-sizing:border-box; }
+body { margin:0; font-family:Georgia,'Times New Roman',serif; background:var(--bg); color:var(--ink); line-height:1.7; }
+a { color:var(--accent); }
+.layout { display:flex; min-height:100vh; }
+nav.sidebar { width:250px; flex-shrink:0; background:var(--card); border-right:1px solid var(--line); padding:1.5rem 1.2rem; }
+nav.sidebar .brand { font-weight:bold; font-size:1.05rem; margin-bottom:1.2rem; display:block; color:var(--ink); text-decoration:none; }
+nav.sidebar .brand span { color:var(--accent); }
+nav.sidebar a.item { display:block; padding:.28rem .4rem; color:var(--soft); text-decoration:none; font-size:.93rem; border-radius:6px; }
+nav.sidebar a.item:hover { background:var(--code-bg); color:var(--ink); }
+nav.sidebar a.item.current { background:var(--code-bg); color:var(--accent); font-weight:bold; }
+main { flex:1; max-width:760px; padding:2.5rem 2rem 3rem; }
+@media (max-width:820px) { .layout { flex-direction:column; } nav.sidebar { width:100%; border-right:none; border-bottom:1px solid var(--line); } main { padding:1.5rem 1.2rem 2.5rem; } }
+h1 { font-size:1.9rem; line-height:1.25; margin-top:0; }
+h2 { font-size:1.35rem; margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:.3rem; }
+h3 { font-size:1.1rem; margin-top:1.6rem; }
+p, li { font-size:1.02rem; }
+table { border-collapse:collapse; width:100%; margin:1.2rem 0; font-size:.95rem; }
+th, td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+th { background:var(--code-bg); }
+tr:nth-child(even) td { background:#fbf5ec; }
+code { background:var(--code-bg); padding:.1rem .35rem; border-radius:4px; font-size:.9em; font-family:ui-monospace,Menlo,Consolas,monospace; }
+pre code { display:block; padding:.8rem 1rem; overflow-x:auto; }
+blockquote { margin:1.2rem 0; padding:.6rem 1rem; background:var(--code-bg); border-left:4px solid var(--accent); border-radius:0 6px 6px 0; }
+blockquote p { margin:.2rem 0; }
+.todo { display:flex; gap:.55rem; align-items:flex-start; margin:.3rem 0; }
+.todo input { margin-top:.45rem; }
+.pager { display:flex; justify-content:space-between; gap:1rem; margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); }
+.pager a { text-decoration:none; }
+.pager .next { margin-left:auto; text-align:right; }
+footer { color:var(--soft); font-size:.85rem; margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); }
+.pill { display:inline-block; background:var(--code-bg); color:var(--soft); font-size:.8rem; padding:.15rem .6rem; border-radius:999px; margin-bottom:1rem; }
+</style>
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<a class="brand" href="00-welcome.html">Smart Speakers<br><span>like a friend would say it</span></a>
+<a class="item" href="00-welcome.html">Welcome: Smart Speakers, Explained Like a Friend Would</a>
+<a class="item" href="01-setup.html">Setup in One Weekend</a>
+<a class="item current" href="02-privacy.html">Privacy Settings Worth Touching</a>
+<a class="item" href="03-daily-commands.html">Daily Commands That Actually Earn Their Keep</a>
+<a class="item" href="04-routines.html">Routines: Reminders and Timers on Autopilot</a>
+<a class="item" href="05-shopping.html">Voice Shopping Without Getting Burned</a>
+<a class="item" href="06-kids-guests.html">Kids and Guests: Settings That Keep the Peace</a>
+<a class="item" href="07-troubleshooting.html">My Speaker Stopped Listening: The Fix-It Ladder</a>
+<a class="item" href="08-phone-vs-speaker.html">When Your Phone Just Does It Better</a>
+<a class="item" href="cheat-sheets.html">Command Cheat Sheets</a>
+<a class="item" href="setup-checklists.html">Setup Checklists</a>
+<a class="item" href="glossary.html">Glossary</a>
+</nav>
+<main>
+<span class="pill">Handbook page 3 of 12</span>
+<h1>Privacy Settings Worth Touching</h1>
+<p>
+Nobody should need a law degree to own a hockey puck. Here are the settings that actually matter, in order of how much you should care. Everything below takes about 15 minutes total, once.
+</p>
+<h2>The big idea</h2>
+<p>
+Smart speakers listen for a wake word ("Alexa," "Hey Google," "Hey Siri," "Computer"). They are <em>not</em> recording everything they hear — they ignore almost all sound — but they do record the parts after the wake word, plus copies of your voice in the cloud. Most of the settings below are about controlling what's saved, and who can hear it later.
+</p>
+<h2>Tier 1 — Definitely do these</h2>
+<ol>
+<li><strong>Review your voice history and delete old recordings.</strong></li>
+<li>Alexa: Alexa app → More → Settings → Alexa Privacy → Review Voice History → pick a date range → Delete.</li>
+<li>Google: myactivity.google.com → filter by "Assistant" → delete by day, product, or date range.</li>
+<li>HomePod: Recordings are tied to your Apple ID's Siri history. Settings app on iPhone → Siri &amp; Search → Siri &amp; Dictation History → Delete Siri &amp; Dictation History.</li>
+<li><strong>Opt out of your voice helping make products better / random human review.</strong></li>
+<li>Amazon: Alexa Privacy → Manage Your Alexa Data → "Help develop new features" → toggle OFF.</li>
+<li>Google: myactivity.google.com → Assistant settings → General? → Web &amp; App Activity → OFF (see note below).</li>
+<li>Apple: Settings → Siri &amp; Search → toggle "Share Audio Recordings" OFF.</li>
+<li><strong>Set voice history to auto-delete.</strong></li>
+<li>Alexa: "Automatically delete voice recordings" → choose 3 or 18 months.</li>
+<li>Google: Web &amp; App Activity → Auto-delete → 3 months (or 18 at the cautious end).</li>
+</ol>
+<ol>
+<li><strong>Mute the mic button when you don't want to be heard.</strong> Every speaker has one — a physical button with a mic icon. When you press it, a red light or dinging tone confirms live listening is off. Use it during arguments (yours, not the speaker's) and when telling secrets.</li>
+</ol>
+<h2>Tier 2 — Worth doing</h2>
+<ol>
+<li><strong>Disable voice purchases entirely, or require a PIN.</strong></li>
+<li>Alexa: Settings → Account Settings → Voice Purchasing → "Require confirmation code." See <a href="05-shopping.html">shopping</a>.</li>
+<li>Google: Google account → Payments &amp; subscriptions → Google Payments / Assistant settings → "On voice purchases" OFF or with a PIN.</li>
+<li><strong>Turn off Drop-In (Alexa).</strong> By default, someone on your household devices can ring up your speaker and listen live-ish. Settings → Devices → your device → Drop In → OFF.</li>
+<li><strong>Check your household members.</strong> Alexa: "Amazon Household." Google Home: household members list. Remove accounts you don't recognize.</li>
+<li><strong>Turn off "Hey Siri" on the iPhone when you're out.</strong> Voice Match on your phone <em>plus</em> the speaker means strangers can sometimes get answers from your phone with your voice profile. AirPods and iPhones, not the speaker, are the bigger exposure here in public.</li>
+</ol>
+<h2>Tier 3 — Personal preference</h2>
+<ol>
+<li><strong>Guest mode / guest instructions for when people visit.</strong> Alexa: "Guest Connect" lets guests use their own Alexa. Turn it on or off as you like. Google doesn't need any of this.</li>
+<li><strong>Ad preferences.</strong> Google Home: myaccount.google.com → Data &amp; privacy → Ad settings → personalization OFF. Alexa: Alexa Privacy → Ad personalization → OFF.</li>
+<li><strong>Location data.</strong> Turn off "Save location history" where the app allows it. Alexa: "Avoid using your home address for features you don't use" — keep home address on if you want traffic/time-to-work answers; otherwise clear it.</li>
+</ol>
+<h2>One warm reminder</h2>
+<p>
+You do <em>not</em> need to be paranoid to be smart. The mic-mute button and the 3-month auto-delete alone handle the scenarios that worry most people. The rest is curiosity, not fear.
+</p>
+<h2>Where to dig deeper</h2>
+<p>
+Each brand has a privacy landing page (search "Alexa Privacy settings," "Google Assistant privacy controls," or "Siri &amp; HomePod privacy" from your app's settings screen) if you find you actually enjoy this stuff.
+</p>
+<div class="pager">
+<a href="01-setup.html">&larr; Setup in One Weekend</a>
+<a class="next" href="03-daily-commands.html">Daily Commands That Actually Earn Their Keep &rarr;</a>
+</div>
+<footer>Asdale Dynamics, LLC · part of the <a href='https://dylanasdale.github.io'>Massive AI Manual</a> family · educational only, never medical or legal advice</footer>
+</main>
+</div>
+</body>
+</html>

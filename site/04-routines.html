@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Routines: Reminders and Timers on Autopilot · Smart Speakers, Explained Like a Friend Would</title>
+<meta name="description" content="Routines: Reminders and Timers on Autopilot — Smart Speakers, Explained Like a Friend Would">
+<style>
+:root {
+  --bg:#fdf8f2; --ink:#2b2620; --soft:#6b6259; --accent:#b4502f;
+  --card:#fff; --line:#e8ded2; --code-bg:#f3ece2;
+}
+* { box-sizing:border-box; }
+body { margin:0; font-family:Georgia,'Times New Roman',serif; background:var(--bg); color:var(--ink); line-height:1.7; }
+a { color:var(--accent); }
+.layout { display:flex; min-height:100vh; }
+nav.sidebar { width:250px; flex-shrink:0; background:var(--card); border-right:1px solid var(--line); padding:1.5rem 1.2rem; }
+nav.sidebar .brand { font-weight:bold; font-size:1.05rem; margin-bottom:1.2rem; display:block; color:var(--ink); text-decoration:none; }
+nav.sidebar .brand span { color:var(--accent); }
+nav.sidebar a.item { display:block; padding:.28rem .4rem; color:var(--soft); text-decoration:none; font-size:.93rem; border-radius:6px; }
+nav.sidebar a.item:hover { background:var(--code-bg); color:var(--ink); }
+nav.sidebar a.item.current { background:var(--code-bg); color:var(--accent); font-weight:bold; }
+main { flex:1; max-width:760px; padding:2.5rem 2rem 3rem; }
+@media (max-width:820px) { .layout { flex-direction:column; } nav.sidebar { width:100%; border-right:none; border-bottom:1px solid var(--line); } main { padding:1.5rem 1.2rem 2.5rem; } }
+h1 { font-size:1.9rem; line-height:1.25; margin-top:0; }
+h2 { font-size:1.35rem; margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:.3rem; }
+h3 { font-size:1.1rem; margin-top:1.6rem; }
+p, li { font-size:1.02rem; }
+table { border-collapse:collapse; width:100%; margin:1.2rem 0; font-size:.95rem; }
+th, td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+th { background:var(--code-bg); }
+tr:nth-child(even) td { background:#fbf5ec; }
+code { background:var(--code-bg); padding:.1rem .35rem; border-radius:4px; font-size:.9em; font-family:ui-monospace,Menlo,Consolas,monospace; }
+pre code { display:block; padding:.8rem 1rem; overflow-x:auto; }
+blockquote { margin:1.2rem 0; padding:.6rem 1rem; background:var(--code-bg); border-left:4px solid var(--accent); border-radius:0 6px 6px 0; }
+blockquote p { margin:.2rem 0; }
+.todo { display:flex; gap:.55rem; align-items:flex-start; margin:.3rem 0; }
+.todo input { margin-top:.45rem; }
+.pager { display:flex; justify-content:space-between; gap:1rem; margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); }
+.pager a { text-decoration:none; }
+.pager .next { margin-left:auto; text-align:right; }
+footer { color:var(--soft); font-size:.85rem; margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); }
+.pill { display:inline-block; background:var(--code-bg); color:var(--soft); font-size:.8rem; padding:.15rem .6rem; border-radius:999px; margin-bottom:1rem; }
+</style>
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<a class="brand" href="00-welcome.html">Smart Speakers<br><span>like a friend would say it</span></a>
+<a class="item" href="00-welcome.html">Welcome: Smart Speakers, Explained Like a Friend Would</a>
+<a class="item" href="01-setup.html">Setup in One Weekend</a>
+<a class="item" href="02-privacy.html">Privacy Settings Worth Touching</a>
+<a class="item" href="03-daily-commands.html">Daily Commands That Actually Earn Their Keep</a>
+<a class="item current" href="04-routines.html">Routines: Reminders and Timers on Autopilot</a>
+<a class="item" href="05-shopping.html">Voice Shopping Without Getting Burned</a>
+<a class="item" href="06-kids-guests.html">Kids and Guests: Settings That Keep the Peace</a>
+<a class="item" href="07-troubleshooting.html">My Speaker Stopped Listening: The Fix-It Ladder</a>
+<a class="item" href="08-phone-vs-speaker.html">When Your Phone Just Does It Better</a>
+<a class="item" href="cheat-sheets.html">Command Cheat Sheets</a>
+<a class="item" href="setup-checklists.html">Setup Checklists</a>
+<a class="item" href="glossary.html">Glossary</a>
+</nav>
+<main>
+<span class="pill">Handbook page 5 of 12</span>
+<h1>Routines: Reminders and Timers on Autopilot</h1>
+<p>
+A <strong>routine</strong> is a recipe: <em>when you say X (or when Y happens), do Z.</em>
+</p>
+<p>
+The magic of routines is that they collapse ten taps into one sentence. "Good morning" can turn on a light, read the weather, tell you your calendar, and start the coffee maker. Here's how to build your first ones, and which ones are worth the 5 minutes.
+</p>
+<h2>How to make a routine (2 minutes, once you've done one)</h2>
+<h3>Alexa</h3>
+<ol>
+<li>Alexa app → <strong>More</strong> → <strong>Routines</strong> → the <strong>+</strong> button.</li>
+<li><strong>When this happens:</strong> pick Voice (type your trigger phrase) or Schedule (pick a time).</li>
+<li><strong>Add action:</strong> what should happen — play music, tell me the weather, set volume to 4, whatever.</li>
+<li>Save.</li>
+</ol>
+<h3>Google Home</h3>
+<ol>
+<li>Google Home app → <strong>Automations (Routines)</strong> → <strong>+</strong>.</li>
+<li><strong>Add starter:</strong> either a voice command you'll say, or a time of day.</li>
+<li><strong>Add action:</strong> what happens.</li>
+<li>Save.</li>
+</ol>
+<h3>Apple (HomePod)</h3>
+<p>
+Siri doesn't have full "routines" the way Alexa/Google do — but you can build them in the iPhone <strong>Shortcuts</strong> app and <em>run</em> them by name on your HomePod: make a Shortcut, then "Hey Siri, morning routine."
+</p>
+<h2>The five routines that are actually worth making</h2>
+<ol>
+<li><strong>"Good morning"</strong> — lights on soft, weather, today's calendar, news briefing, coffee (if it's on a smart plug). This one changes lives.</li>
+<li><strong>"Goodnight"</strong> — lights off, doors locked (if smart locks), "do not disturb" mode until 7am. Saying this out loud before bed is weirdly satisfying.</li>
+<li><strong>"I'm home"</strong> — lights on, thermostat up, maybe a message to the household. Handy when your arms are full of groceries.</li>
+<li><strong>Medication reminder</strong> — a <em>scheduled</em> routine (not voice-triggered) at, say, 8am and 8pm: flashlight blink or a spoken "Time for pills." Routines repeat daily automatically.</li>
+<li><strong>"Bedtime story" or "wind down"</strong> — timer to remind the kids at a fixed hour, or a 15-minute "timer" that turns off the lamps.</li>
+</ol>
+<h2>Scheduled reminders worth setting up right now</h2>
+<p>
+Say these out loud right after setup — they take 5 seconds each:
+</p>
+<ul>
+<li>"Remind me to take the trash out Thursday nights at 7."</li>
+<li>"Remind me to call Mom every Sunday at 4." (or "…every day at 10am" for repeating things)</li>
+<li>"Remind me to pay the electric bill on the 1st of every month."</li>
+</ul>
+<h2>Pro tips (the friendly kind)</h2>
+<ul>
+<li><strong>Name timers by what they're for.</strong> "Timer for rice," "timer for laundry." Then "How long on the rice timer?" gives a real answer instead of "there are three timers."</li>
+<li><strong>Routines are quieter than your phone.</strong> A routine that <em>speaks</em> the reminder is better than one that just makes the speaker blink — you won't notice the blink.</li>
+<li><strong>Test each routine once.</strong> Say the trigger phrase. If two routines accidentally have the same trigger word ("goodnight" and "goodnight kids"), fix it — the speaker gets confused and does the wrong one.</li>
+<li>Keep a paper note of your routine phrases for the first week. After that, they stick.</li>
+</ul>
+<p>
+For a printable list of the trigger phrases + what they do, see the <a href="cheat-sheets.html">cheat sheets</a>.
+</p>
+<div class="pager">
+<a href="03-daily-commands.html">&larr; Daily Commands That Actually Earn Their Keep</a>
+<a class="next" href="05-shopping.html">Voice Shopping Without Getting Burned &rarr;</a>
+</div>
+<footer>Asdale Dynamics, LLC · part of the <a href='https://dylanasdale.github.io'>Massive AI Manual</a> family · educational only, never medical or legal advice</footer>
+</main>
+</div>
+</body>
+</html>

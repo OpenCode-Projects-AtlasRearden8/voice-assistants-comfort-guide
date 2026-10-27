@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Speaker Stopped Listening: The Fix-It Ladder · Smart Speakers, Explained Like a Friend Would</title>
+<meta name="description" content="My Speaker Stopped Listening: The Fix-It Ladder — Smart Speakers, Explained Like a Friend Would">
+<style>
+:root {
+  --bg:#fdf8f2; --ink:#2b2620; --soft:#6b6259; --accent:#b4502f;
+  --card:#fff; --line:#e8ded2; --code-bg:#f3ece2;
+}
+* { box-sizing:border-box; }
+body { margin:0; font-family:Georgia,'Times New Roman',serif; background:var(--bg); color:var(--ink); line-height:1.7; }
+a { color:var(--accent); }
+.layout { display:flex; min-height:100vh; }
+nav.sidebar { width:250px; flex-shrink:0; background:var(--card); border-right:1px solid var(--line); padding:1.5rem 1.2rem; }
+nav.sidebar .brand { font-weight:bold; font-size:1.05rem; margin-bottom:1.2rem; display:block; color:var(--ink); text-decoration:none; }
+nav.sidebar .brand span { color:var(--accent); }
+nav.sidebar a.item { display:block; padding:.28rem .4rem; color:var(--soft); text-decoration:none; font-size:.93rem; border-radius:6px; }
+nav.sidebar a.item:hover { background:var(--code-bg); color:var(--ink); }
+nav.sidebar a.item.current { background:var(--code-bg); color:var(--accent); font-weight:bold; }
+main { flex:1; max-width:760px; padding:2.5rem 2rem 3rem; }
+@media (max-width:820px) { .layout { flex-direction:column; } nav.sidebar { width:100%; border-right:none; border-bottom:1px solid var(--line); } main { padding:1.5rem 1.2rem 2.5rem; } }
+h1 { font-size:1.9rem; line-height:1.25; margin-top:0; }
+h2 { font-size:1.35rem; margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:.3rem; }
+h3 { font-size:1.1rem; margin-top:1.6rem; }
+p, li { font-size:1.02rem; }
+table { border-collapse:collapse; width:100%; margin:1.2rem 0; font-size:.95rem; }
+th, td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+th { background:var(--code-bg); }
+tr:nth-child(even) td { background:#fbf5ec; }
+code { background:var(--code-bg); padding:.1rem .35rem; border-radius:4px; font-size:.9em; font-family:ui-monospace,Menlo,Consolas,monospace; }
+pre code { display:block; padding:.8rem 1rem; overflow-x:auto; }
+blockquote { margin:1.2rem 0; padding:.6rem 1rem; background:var(--code-bg); border-left:4px solid var(--accent); border-radius:0 6px 6px 0; }
+blockquote p { margin:.2rem 0; }
+.todo { display:flex; gap:.55rem; align-items:flex-start; margin:.3rem 0; }
+.todo input { margin-top:.45rem; }
+.pager { display:flex; justify-content:space-between; gap:1rem; margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); }
+.pager a { text-decoration:none; }
+.pager .next { margin-left:auto; text-align:right; }
+footer { color:var(--soft); font-size:.85rem; margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); }
+.pill { display:inline-block; background:var(--code-bg); color:var(--soft); font-size:.8rem; padding:.15rem .6rem; border-radius:999px; margin-bottom:1rem; }
+</style>
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<a class="brand" href="00-welcome.html">Smart Speakers<br><span>like a friend would say it</span></a>
+<a class="item" href="00-welcome.html">Welcome: Smart Speakers, Explained Like a Friend Would</a>
+<a class="item" href="01-setup.html">Setup in One Weekend</a>
+<a class="item" href="02-privacy.html">Privacy Settings Worth Touching</a>
+<a class="item" href="03-daily-commands.html">Daily Commands That Actually Earn Their Keep</a>
+<a class="item" href="04-routines.html">Routines: Reminders and Timers on Autopilot</a>
+<a class="item" href="05-shopping.html">Voice Shopping Without Getting Burned</a>
+<a class="item" href="06-kids-guests.html">Kids and Guests: Settings That Keep the Peace</a>
+<a class="item current" href="07-troubleshooting.html">My Speaker Stopped Listening: The Fix-It Ladder</a>
+<a class="item" href="08-phone-vs-speaker.html">When Your Phone Just Does It Better</a>
+<a class="item" href="cheat-sheets.html">Command Cheat Sheets</a>
+<a class="item" href="setup-checklists.html">Setup Checklists</a>
+<a class="item" href="glossary.html">Glossary</a>
+</nav>
+<main>
+<span class="pill">Handbook page 8 of 12</span>
+<h1>My Speaker Stopped Listening: The Fix-It Ladder</h1>
+<p>
+It responds only to heavy sighing, sometimes. Or not at all. Before you decide it's broken forever, walk this ladder from top to bottom. Each rung takes about a minute and most problems die on rung 3 or 4.
+</p>
+<h2>Rung 1: The obvious stuff (no judgment)</h2>
+<ul>
+<li>Is it <strong>plugged in</strong> at both ends (wall <em>and</em> speaker)? Power strips get bumped.</li>
+<li>Is the <strong>mic mute button</strong> on? Red light or mic-with-a-line icon means mute. Press it. Try again.</li>
+<li><strong>Volume.</strong> Plausible, but say "louder" first. Then check app volume.</li>
+</ul>
+<h2>Rung 2: Restart properly (the 80% fix)</h2>
+<p>
+Unplug the speaker. Count to 30. Plug it back in. Wait 90 seconds for it to boot.
+</p>
+<p>
+Do this before anything else. It's the IT equivalent of "have you tried turning it off and on again," and it works an embarrassing percentage of the time.
+</p>
+<h2>Rung 3: Wi-Fi is usually the culprit</h2>
+<ul>
+<li>If your <strong>phone's Wi-Fi is slow</strong> right now, the speaker's is too.</li>
+<li>The speaker likes the <strong>2.4GHz network</strong> in big houses. If your router broadcasts two networks, try the other one.</li>
+<li>Move the speaker closer to the router for a test. If it suddenly works great in the hallway, the problem is distance/walls, and the fix is a mesh node or a different outlet, not a new speaker.</li>
+<li>Router reboot: unplug router, 30 seconds, plug back in. Yes, again.</li>
+</ul>
+<h2>Rung 4: Check if it's <em>hearing</em> you (not just <em>listening</em>)</h2>
+<ul>
+<li>Noisy rooms (dishwasher, TV, kids) cause real problems. Try getting closer and speaking normally, not louder.</li>
+<li>Ambient music playing on the speaker itself can muffle "Hey Alexa." Turn it down and retry.</li>
+<li>Morning-voice problem is real — speak the wake word <em>clearly</em>, separate from the rest. "Hey… Alexa." Two beats.</li>
+<li>If you recently changed the wake word (Alexa supports "Echo," "Amazon," "Computer") make sure that's what you're saying.</li>
+</ul>
+<h2>Rung 5: Check the app says what you think</h2>
+<ul>
+<li><strong>Device online?</strong> Open the app, tap the speaker, look for "Online" / a green dot.</li>
+<li><strong>Wrong account?</strong> If the household list changed, the speaker might be registered to an old account. Settings → Device → "Registered to" [name].</li>
+<li><strong>Do Not Disturb mode:</strong> speakers in DND still respond to timers but won't make noise for reminders. Settings → device → Do Not Disturb.</li>
+<li><strong>Bluetooth:</strong> if it's paired to your phone, phone audio can mute the assistant. Unpair and retry.</li>
+</ul>
+<h2>Rung 6: Deregister and re-setup (nuclear, 10 minutes)</h2>
+<p>
+Alexa: app → Devices → select device → Settings → trash icon / "Deregister." Then re-run setup from scratch — it takes less time than it sounds and fixes weird account/voice-profile ghosts. Google: factory reset the speaker via the physical button (varies by model; Google has a page per model), re-add in the Home app.
+</p>
+<h2>Rung 7: It might actually be broken</h2>
+<p>
+If it was dropped, soaked, or it stays dark, that's warranty territory. Amazon: order page "Get product support." Google: store page support. Apple: apple.com/support. This guide is not affiliated with any of them; we're just telling you where the door is.
+</p>
+<h2>Cheat answers to the most common real-world cases</h2>
+<ul>
+<li>"It stopped hearing me after a power outage" → rung 2 (restart), then rung 3 (Wi-Fi rejoin).</li>
+<li>"It hears me but only sometimes" → rung 4 (mic/noise), then check voice profile exists.</li>
+<li>"It randomly talks/disturbs at night" → DND mode or Quiet hours in the app.</li>
+<li>"My partner's voice gives my reminders" → voice profiles are per-person; each person sets one up separately.</li>
+<li>"Wake word doesn't work after firmware update" → restart, then re-check the wake word setting in the app.</li>
+</ul>
+<h2>When all else fails: use your phone</h2>
+<p>
+You have a phone in your pocket that can do 90% of this. More on that in <a href="08-phone-vs-speaker.html">phone vs. speaker</a>.
+</p>
+<div class="pager">
+<a href="06-kids-guests.html">&larr; Kids and Guests: Settings That Keep the Peace</a>
+<a class="next" href="08-phone-vs-speaker.html">When Your Phone Just Does It Better &rarr;</a>
+</div>
+<footer>Asdale Dynamics, LLC · part of the <a href='https://dylanasdale.github.io'>Massive AI Manual</a> family · educational only, never medical or legal advice</footer>
+</main>
+</div>
+</body>
+</html>
